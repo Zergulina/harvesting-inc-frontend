@@ -1,0 +1,22 @@
+.AdminTableSelection {
+    width: 100%;
+}
+
+.Card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    text-align: center;
+}
+
+.CardHeader {
+    padding: 0 10px;
+}
+
+.Image {
+    height: 200px;
+}

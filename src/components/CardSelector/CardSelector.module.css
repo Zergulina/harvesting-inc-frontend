@@ -1,0 +1,21 @@
+.CardSelectorHeader {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.CardSelectorWrapper {
+    height: 100%;
+}
+
+.CardSelector {
+    overflow-y: auto;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,5 @@
+.ImageContainer {
+    border: solid 1px var(--panel-border-color);
+    background-position: center;
+    background-size: cover;
+}

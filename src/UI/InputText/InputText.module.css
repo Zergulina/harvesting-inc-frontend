@@ -1,19 +1,19 @@
 .InputText {
-    background-color: rgb(214, 214, 214);
-    appearance: none;
-    border: 0;
+    /* background-color: rgb(214, 214, 214);
+    appearance: none; */
+    /* border: 0; */
     font-size: 14px;
     padding: 0 10px;
     height: 35px;
     border-radius: 4px;
-    outline: none;
-    box-shadow: none;
+    /* outline: none;
+    box-shadow: none; */
 }
 
 .InputText::placeholder {
-    color: var(--text-unactive-color)
+    /* color: var(--text-unactive-color) */
 }
 
 .InputText:focus {
-    box-shadow: 0 0 0 2px var(--button-focus-shadow-color);
+    /* box-shadow: 0 0 0 2px var(--button-focus-shadow-color); */
 }

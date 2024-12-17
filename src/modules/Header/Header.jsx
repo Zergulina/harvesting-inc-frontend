@@ -1,20 +1,28 @@
 import React from 'react';
 import classes from './Header.module.css'
-import { Outlet } from 'react-router-dom';
+import { Navigate, NavLink, Outlet } from 'react-router-dom';
 import { useUserInfo } from '../../store/context/UserContextProvider';
 
-const Header = ({className}) => {
-    const {userInfo} = useUserInfo()
+const Header = ({ className }) => {
+    const { userInfo } = useUserInfo()
 
     return (
         <>
-       <header className={`${className} ${classes.Header}`}>
-            <div>
-                {userInfo ? userInfo.lastname + " " + userInfo.firstname + (userInfo.middlename ? " " + userInfo.middlename: "") : ""}
-            </div>
-       </header>
-       <Outlet/>
-       </>
+            <header className={`${className} ${classes.Header}`}>
+                <div className={classes.HeaderPart}>
+                    <div className={classes.OrganizationName}>
+                        {process.env.REACT_APP_ORGANIZATION_NAME}
+                    </div>
+                    <div>
+                        {userInfo ? userInfo.lastname + " " + userInfo.firstname + (userInfo.middlename ? " " + userInfo.middlename : "") : ""}
+                    </div>
+                </div>
+                <div className={classes.HeaderPart}>
+                    <NavLink className={classes.Logout} to={"/logout"}>Выйти</NavLink>
+                </div>
+            </header>
+            <Outlet />
+        </>
     );
 };
 

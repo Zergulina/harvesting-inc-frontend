@@ -2,4 +2,21 @@
     height: 40px;
     width: 100%;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderPart {
+    display: flex;
+    align-items: center;
+}
+
+.OrganizationName {
+    margin: 0 20px;
+    font-weight: 800;
+}
+
+.Logout {
+    margin: 0 20px;
 }

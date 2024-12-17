@@ -1,0 +1,32 @@
+.Selector {
+    margin-top: 10px;
+}
+
+.TableWrapper {
+    width: calc(100vw - 40px);
+    display: block;
+    overflow-x: auto;
+}
+
+.Report {
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+    margin:20px
+}
+
+.ReportTitle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Table {
+    border-collapse: collapse;
+}
+
+.Table tr,td {
+    border: 1px solid black
+}
+
+.Table td {
+    padding: 5px;
+}

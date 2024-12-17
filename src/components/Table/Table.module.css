@@ -1,0 +1,30 @@
+.TableWrapper {
+    overflow-y: auto;
+    width: fit-content;
+    height: calc(100vh - 120px);
+}
+
+.Table{
+    display: block;
+    width: fit-content;
+}
+
+.TableHeader {
+    height: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.TableHeaderCell {
+    min-width: 50px;
+    padding: 0 5px;
+}
+
+.Row {
+    height: 30px;
+}
+
+.Cell {
+    min-width: 50px;
+    padding: 0 5px;
+}

@@ -1,23 +1,21 @@
 .DropDown {
-    background-color: var(--button-color);
-    color: var(--text-color);
-    appearance: none;
-    border: 0;
+    /* background-color: rgb(214, 214, 214); */
+    /* appearance: none; */
+    /* border: 0; */
     font-size: 16px;
     height: 26px;
     border-radius: 4px;
     min-width: 90px;
-    outline: none;
-    box-shadow: none;
+    /* outline: none;
+    box-shadow: none; */
     padding: 0 5px;
 }
 
 .DropDown:hover {
-    background-color: var(--button-hover-color);
+    /* background-color: rgb(189, 189, 189); */
 }
 
 
 .DropDown:focus {
-    background-color: var(--button-color);
-    box-shadow: 0 0 0 2px var(--button-focus-shadow-color);
+    /* background-color: rgb(189, 189, 189); */
 }

@@ -1,0 +1,20 @@
+.CheckBox {
+    background-color: rgb(214, 214, 214);
+    border: 0;
+    font-size: 20px;
+    height: 35px;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+.CheckBox:hover {
+    background-color: rgb(189, 189, 189);
+    cursor: pointer;
+}
+
+
+.CheckBox:focus {
+    background-color: rgb(189, 189, 189);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
